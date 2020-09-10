@@ -21,7 +21,7 @@ Em um curso patrocinado pelo Google, o professor Gustavo Guanabara vai ensinar o
 
 ## Meu progresso
 
-- [ ] Módulo A
+- [x] Módulo A
 - [ ] Módulo B
 - [ ] Módulo C
 - [ ] Módulo D
