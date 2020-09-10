@@ -25,7 +25,7 @@ var nome_da_variavel = `JavaScript`
 - Maiúscuas e minúsculas **fazem** difreneça.
 - Não é possível armazenar mais de um dado por variável.
 
-### Identificadores
+## Identificadores
 
 Os identificadores são nomes dados às variáveis. Existem algumas regras para que um identificador seja válido:
 
@@ -36,7 +36,7 @@ Os identificadores são nomes dados às variáveis. Existem algumas regras para 
 5. **Não** podem ser palavras reservadas.
 
 
-### Tipos primitivos de dados
+## Tipos primitivos de dados
 
 Tipo    | Descrição            | Exemplos
 --------|----------------------|------------------------
