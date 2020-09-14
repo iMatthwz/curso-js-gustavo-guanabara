@@ -37,7 +37,7 @@ n **= 5;   //O mesmo que n = n ** 5
            //Segue-se a mesma lógica com os outros operadores aritméticos
 ```
 
-### Incemento e Decremento:
+### Incremento e Decremento:
 
 ```
 var n = 5;
@@ -89,19 +89,12 @@ Disjunção (ou) | ||      |
 var media = 6;
 var idade = 16;
 
-media >= 7?"APROVADO":"REPROVADO";             //Vai retornar "REROVADO"
+media >= 7?"APROVADO":"REPROVADO";             //Vai retornar "REPROVADO"
 idade < 18?"Menor de idade":"Maior de idade"   //Vai retornar "Menor de idade"
 ```
 
 ## Precedência dos Operadores
 
 1. Aritméticos
-    1. ()
-    2. **
-    3. *, / e %
-    4. + e -
 2. Relacionais
 3. Lógicos
-    1. !
-    2. &&
-    3. ||
