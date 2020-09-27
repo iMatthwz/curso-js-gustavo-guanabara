@@ -23,7 +23,7 @@ Em um curso patrocinado pelo Google, o professor Gustavo Guanabara vai ensinar o
 
 - [x] Módulo A
 - [x] Módulo B
-- [ ] Módulo C
+- [x] Módulo C
 - [ ] Módulo D
 - [ ] Módulo E
 - [ ] Módulo F
