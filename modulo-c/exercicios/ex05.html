@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Primeiros passos com o DOM</title>
+        <style>
+            body {
+                background-color: purple;
+                color: white;
+                font: normal 16px Arial; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="titulo">Iniciando estudos com DOM</h1>
+        <p class="paragrafo">Primeiro teste</p>
+        <p class="paragrafo">Seguno teste</p>
+        <div>Terceiro teste</div>
+
+        <script>
+            const body = document.body;
+            body.style.background = "yellow";
+
+            const titulo = document.getElementById("titulo");
+            titulo.innerText = "Mundando título...";
+
+            const paragrafo = document.querySelector("p.paragrafo");
+            document.write(`Conteúdo do primeiro parágrafo: ${paragrafo.innerHTML} <br>`);
+
+            paragrafo.innerHTML = "Mudando<br>o<br>paragrafo";
+
+            document.write(`Conteúdo do primeiro parágrafo após mudança: <br> ${paragrafo.innerHTML}`);
+
+            const div = document.getElementsByTagName("div");
+            div[0].style.background = "blue";
+        </script>
+    </body>
+</html>
